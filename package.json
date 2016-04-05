@@ -1,0 +1,23 @@
+{
+  "name": "silence-validator",
+  "version": "0.0.1",
+  "description": "A simple object validator",
+  "author": {
+    "name": "Francois A.R. Vilain",
+    "email": "far.vilain@gmail.com"
+  },
+  "license": "All Right Reserved",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:farv/silence-validator.git"
+  },
+  "publishConfig": {
+    "registry": "http://aria.francois-vilain.com:8081"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "dependencies": {
+  }
+}
