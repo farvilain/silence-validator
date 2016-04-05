@@ -1,6 +1,6 @@
 {
   "name": "silence-validator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple object validator",
   "author": {
     "name": "Francois A.R. Vilain",
