@@ -11,9 +11,6 @@
     "type": "git",
     "url": "git@bitbucket.org:farv/silence-validator.git"
   },
-  "publishConfig": {
-    "registry": "http://aria.francois-vilain.com:8081"
-  },
   "main": "lib/index.js",
   "scripts": {
     "test" : "mocha test --recursive -R spec"
