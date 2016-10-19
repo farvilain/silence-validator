@@ -1,6 +1,6 @@
 {
   "name": "silence-validator",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A simple object validator",
   "author": {
     "name": "Francois A.R. Vilain",
@@ -13,7 +13,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test" : "mocha test --recursive -R spec"
+    "test": "mocha test --recursive -R spec"
   },
   "dependencies": {}
 }
