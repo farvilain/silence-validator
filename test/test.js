@@ -5,12 +5,9 @@ describe("validator", function(){
 	it("can work with optionnal field having subfields rules", function (){
 		var v = validator
 		.extended()
-		.isObject()
-		.field("optionnal")
-			.isObject()
-			.field("sub")
-			.required();
-		var errors = v.validate({});
+		.field("range").required().isNumber().notNull().range({min:10})
+		;
+		var errors = v.validate({range:12});
 		assert.deepEqual({},errors);
 	});
 });

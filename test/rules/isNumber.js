@@ -3,11 +3,11 @@ var assert = require('assert');
 
 describe("rule isNumber", function(){
 	it("accepts null", function (){
-		var res = isNumber(null);
+		var res = isNumber()(null);
 		assert.deepEqual(res,null);
 	});
 	it("accepts undefined", function (){
-		var res = isNumber(undefined);
+		var res = isNumber()(undefined);
 		assert.deepEqual(res,null);
 	});
 });

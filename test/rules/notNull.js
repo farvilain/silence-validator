@@ -3,7 +3,7 @@ var assert = require('assert');
 
 describe("rule notNull", function(){
 	it("accepts undefined", function (){
-		var res = notNull(undefined);
+		var res = notNull()(undefined);
 		assert.deepEqual(res,null);
 	});
 });
