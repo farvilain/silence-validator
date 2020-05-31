@@ -10,4 +10,19 @@ describe("rule isString", function(){
 		var res = isString()(undefined);
 		assert.deepEqual(res,null);
 	});
+
+	it("refuses number", function (){
+		var res = isString()(1);
+		assert.deepEqual(res, { code: 'isString'});
+	});
+
+	it("refuses object", function (){
+		var res = isString()({});
+		assert.deepEqual(res, { code: 'isString'});
+	});
+
+	it("refuses array", function (){
+		var res = isString()([]);
+		assert.deepEqual(res, { code: 'isString'});
+	});
 });
